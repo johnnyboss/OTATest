@@ -90,7 +90,7 @@ lastActiveFace = -1
 while True:
     if lastActiveFace > -1:
         clearFace(lastActiveFace)
-    lightBlue(activeFace)
+    lightGreen(activeFace)
     lastActiveFace = activeFace
     activeFace+=1
     if activeFace == 6:
